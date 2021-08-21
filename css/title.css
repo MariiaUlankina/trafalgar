@@ -1,0 +1,78 @@
+.title > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .title ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+  }
+  
+  .title h2 {
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 1.55;
+    color: #000000;
+    text-align: center;
+    min-width: 462px;
+    margin-bottom: 72px;
+  }
+  
+  .title li {
+    width: 350px;
+    height: 512px;
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  .title img {
+    width: 350px;
+    height: 246px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .title ul h3 {
+    font-weight: 700;
+    font-size: 2.1rem;
+    line-height: 1.52;
+    color: #000000;
+    margin: 21px 33px 12px;
+  }
+  
+  .title ul p {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #7d7987;
+    margin: 0px 33px 25px;
+  }
+  
+  .title ul a {
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 1.65;
+    color: #4089ed;
+    text-decoration: none;
+    margin: 0px 33px 35px;
+  }
+  
+  .view {
+    border: 1px solid #458ff6;
+    border-radius: 55px;
+    padding: 3px 65px 1px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 3.33;
+    color: #458ff6;
+    margin-top: 72px;
+    display: inline-block;
+    margin-bottom: 20px;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  

@@ -1,0 +1,111 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  
+  header {
+    padding-top: 62px;
+    margin-bottom: 30px;
+  }
+  
+  header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-size: 2.4rem;
+    line-height: 1.25;
+    color: #233348;
+    font-weight: 700;
+  }
+  
+  .icon {
+    font-size: 2.6rem;
+    line-height: 1.27;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #458ff6;
+    border-radius: 55px;
+    padding: 5px 11px;
+    width: 41px;
+    height: 41px;
+    text-align: center;
+  }
+  
+  .wrapper {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .home {
+    font-weight: 700;
+  }
+  
+  nav a {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.28;
+    color: #1f1534;
+  }
+  
+  .hero-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .hero-content h1 {
+    font-size: 4.8rem;
+    line-height: 1.17;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #000000;
+  }
+  
+  .hero-content p {
+    font-size: 2.1rem;
+    line-height: 1.52;
+    font-weight: 300;
+    margin-bottom: 45px;
+    color: #7d7987;
+  }
+  
+  .hero-content a {
+    border-radius: 55px;
+    background-color: #458ff6;
+    font-size: 1.8rem;
+    line-height: 3.33;
+    font-weight: 700;
+    padding: 3px 40px 1px;
+    color: white;
+    display: inline-block;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 127px;
+  }
+  
+  .text {
+    align-self: center;
+  }
+  
+  .image img {
+    width: 635px;
+  }
+  
