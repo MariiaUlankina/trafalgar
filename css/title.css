@@ -1,3 +1,8 @@
+.title{
+  background-image: url("../img/drop-two.svg"), url("../img/element.svg");
+  background-repeat: no-repeat;
+  background-position: right 0, top 113px left 235px;
+}
 .title > div {
     display: flex;
     justify-content: center;
@@ -20,12 +25,24 @@
     min-width: 462px;
     margin-bottom: 72px;
   }
+
+  .title h2::after{
+    content: '';
+    width: 56px;
+    height: 2px;
+    background-color: #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+}
   
   .title li {
     width: 350px;
     height: 512px;
     background-color: white;
     border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
   
   .title img {
