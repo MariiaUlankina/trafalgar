@@ -19,3 +19,9 @@ html{
   margin-left: auto;
   margin-right: auto;
 }
+
+.container-footer{
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}

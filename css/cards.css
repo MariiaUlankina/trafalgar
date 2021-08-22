@@ -2,6 +2,7 @@
     background-image: url("../img/drop-one.svg"), url("../img/element.svg");
     background-repeat: no-repeat;
     background-position:top 0 left 0, top 538px right 245px;
+    padding-bottom: 220px;
 }
 
 .cards > div{
@@ -91,7 +92,7 @@
     line-height: 3.33;
     color: #458FF6;
     margin-top: 72px;  
-    margin-bottom: 220px;
+    
     display: inline-block; 
     min-width: 200px;
     margin-left: auto;

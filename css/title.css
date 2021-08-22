@@ -1,13 +1,15 @@
 .title{
-  background-image: url("../img/drop-two.svg"), url("../img/element.svg");
+  background-image: url("../img/drop-two.svg"), url("../img/element.svg"), url("../img/element.svg");
   background-repeat: no-repeat;
-  background-position: right 0, top 113px left 235px;
+  background-position: right 0, top 113px left 235px, right 100px bottom -45px;
+  padding-bottom: 201px;
 }
 .title > div {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
   }
   
   .title ul {

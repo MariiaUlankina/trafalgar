@@ -1,3 +1,8 @@
+.apps{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
 .apps > div{
     display: flex;
     flex-direction: column;
@@ -5,13 +10,12 @@
     align-items: flex-start; 
 }
 
-.apps{
+.apps-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 71px;
     margin-left: 100px;
-    margin-bottom: 200px;
 }
 
 .text-apps h2{
